@@ -1,12 +1,12 @@
 {
 	"name": "badasswp/ai-plus-block-editor",
 	"description": "Add AI Capabilities to the WP Block Editor.",
-	"type": "package",
+	"type": "wordpress-plugin",
 	"license": "GPL-2.0-or-later",
 	"autoload": {
 		"psr-4": {
 			"AiPlusBlockEditor\\": "inc/",
-			"AiPlusBlockEditor\\Tests\\": "tests/"
+			"AiPlusBlockEditor\\Tests\\": "tests/unit/php"
 		}
 	},
 	"authors": [
@@ -22,7 +22,7 @@
 		"badasswp/wp-mock-tc": "^1.0",
 		"phpunit/phpunit": "^9.6",
 		"mockery/mockery": "^1.6",
-		"10up/wp_mock": "^1.0",
+		"10up/wp_mock": "^1.1.0",
 		"wp-coding-standards/wpcs": "^3.0",
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
 		"php-coveralls/php-coveralls": "^2.5",

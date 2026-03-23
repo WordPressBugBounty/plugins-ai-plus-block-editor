@@ -4,14 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit77424733094727f7b3216a40ad3d0de2
+class ComposerStaticInit7e99e58a8592773a89eba2804e41acca
 {
     public static $prefixLengthsPsr4 = array (
-        'O' => 
+        'O' =>
         array (
             'Orhanerday\\OpenAi\\' => 18,
         ),
-        'A' => 
+        'A' =>
         array (
             'AiPlusBlockEditor\\Tests\\' => 24,
             'AiPlusBlockEditor\\' => 18,
@@ -19,15 +19,15 @@ class ComposerStaticInit77424733094727f7b3216a40ad3d0de2
     );
 
     public static $prefixDirsPsr4 = array (
-        'Orhanerday\\OpenAi\\' => 
+        'Orhanerday\\OpenAi\\' =>
         array (
             0 => __DIR__ . '/..' . '/orhanerday/open-ai/src',
         ),
-        'AiPlusBlockEditor\\Tests\\' => 
+        'AiPlusBlockEditor\\Tests\\' =>
         array (
-            0 => __DIR__ . '/../..' . '/tests',
+            0 => __DIR__ . '/../..' . '/tests/unit/php',
         ),
-        'AiPlusBlockEditor\\' => 
+        'AiPlusBlockEditor\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc',
         ),
@@ -40,9 +40,9 @@ class ComposerStaticInit77424733094727f7b3216a40ad3d0de2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit77424733094727f7b3216a40ad3d0de2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit77424733094727f7b3216a40ad3d0de2::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit77424733094727f7b3216a40ad3d0de2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7e99e58a8592773a89eba2804e41acca::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7e99e58a8592773a89eba2804e41acca::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7e99e58a8592773a89eba2804e41acca::$classMap;
 
         }, null, ClassLoader::class);
     }

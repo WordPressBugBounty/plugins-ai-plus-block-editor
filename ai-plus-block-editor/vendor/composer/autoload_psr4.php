@@ -7,6 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Orhanerday\\OpenAi\\' => array($vendorDir . '/orhanerday/open-ai/src'),
-    'AiPlusBlockEditor\\Tests\\' => array($baseDir . '/tests'),
+    'AiPlusBlockEditor\\Tests\\' => array($baseDir . '/tests/unit/php'),
     'AiPlusBlockEditor\\' => array($baseDir . '/inc'),
 );
